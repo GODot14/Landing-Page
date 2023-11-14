@@ -1,8 +1,7 @@
 body {
-    display: flex;
-    flex-direction: column;
-    font-family: roboto;
     margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
 }
 
 ul {
@@ -11,19 +10,64 @@ ul {
     padding: 0;
     display: flex;
     gap: 16px;
+    align-items: center;
 }
 
-a{
+header {
+    display: flex;
+    justify-content: space-between;
+    background-color: #1F2937;
+    padding: 0px 96px;
+}
+
+body p {
+    font-size: 24px;
+    color: #f9FAF8;
+    font-weight: 900;
+}
+
+.subtext {
     font-size: 18px;
     color: #E5E7EB;
 }
 
-.header {
+main h1 {
     color: #F9FAF8;
-    font-weight: bolder;
-    font-size: 24px;
+    font-size: 48px;
+    font-weight: 900;
+    margin: 0;
+}
+
+.top {
     background-color: #1F2937;
     display: flex;
+    justify-content: center;
+    padding: 0px 96px;
+    padding-bottom: 96px;
+    height: 200px;
+}
+
+.left {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 50%;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.right {
+    background-color: rgb(46, 46, 46);
+    display: flex;
+    flex-basis: 50%;
+    justify-content: center;
     align-items: center;
-    justify-content: space-evenly;
+}
+
+.button-top {
+    background-color: #3882F6;
+    border: none;
+    border-radius: 4px;
+    width: 100px;
+    margin-top: 8px;
+    color: #F9FAF8;
 }
