@@ -46,7 +46,7 @@ main h1 {
     height: 300px;
 }
 
-.left {
+.top .left {
     display: flex;
     flex-direction: column;
     flex-basis: 40%;
@@ -54,7 +54,7 @@ main h1 {
     justify-content: center;
 }
 
-.right {
+.top .right {
     background-color: rgb(102, 102, 102);
     display: flex;
     flex-basis: 40%;
@@ -99,4 +99,37 @@ button{
     gap: 26px;
     padding-top: 10px;
     text-align: center;
+}
+
+.middle h2{
+    font-size: 36px;
+    color: #1F2937;
+}
+
+.quote-container {
+    background-color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0px 150px;
+    height: 492px;
+}
+
+.quote-container .quote {
+    font-style: italic;
+    color: #1F2937;
+    font-size: 36px;
+    margin: 0;
+}
+
+.quote-container .source {
+    color: #1F2937;
+    font-size: 20px;
+    text-align: end;
+    margin: 0;
+}
+
+.bottom {
+    display: flex;
+    height: 492px;
 }
